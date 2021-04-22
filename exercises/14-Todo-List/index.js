@@ -9,4 +9,11 @@ texto.addEventListener("change", function() {
 	lista.appendChild(tareaNueva);
 });
 
-
+window.onload = function loadFn() {
+	var containerElm = document.getElementById("container");
+	containerElm.addEventListener("click", function(event) {
+		{
+			document.getElementsByTagName("ul")[0].removeChild(event.target);
+		}
+	});
+};

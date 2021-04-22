@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://amaranth-quail-filum8e0.ws-us03.gitpod.io",
+    "address": "https://red-kite-ey3bbzww.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
